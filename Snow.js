@@ -4,7 +4,7 @@ class Snow{
             restitution:1,
             friction:1.0,
             density:3.0,
-            isStatic:true,
+            isStatic:false,
         }
         this.body = Bodies.rectangle(x,y,width,height,options)
         this.width = width;
